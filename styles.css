@@ -18,19 +18,19 @@ body {
 }
 
 .container img {
-    border-radius: none;
+
     transition: all linear 0.3s;
     background-repeat: no-repeat;
     transform: translate(-5%, -5%);
-    width: 180px;
-    height: 180px;
+    width: 80px;
+    height: auto;
 }
 
 h1 {
 
-    color: black;
+    color: white;
     font-weight: bold;
-    font-size: 50;
+    font-size: 70px;
 
 }
 
@@ -85,13 +85,12 @@ button:hover {
 }
 
 .card {
-    border: 1px solid #ccc;
+    /* background-color: #fff; */
     padding: 1rem;
     margin-bottom: 1rem;
-    color: black;
+    color: white;
     border: 5px solid black;
-
-
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.9);
 }
 
 .card button {
